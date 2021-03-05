@@ -119,7 +119,7 @@ export default class AtSearchBar extends AtComponent<
               className='at-search-bar__placeholder'
               style={placeholderStyle}
             >
-              {isFocus ? '' : placeholder}
+              {placeholder}
             </Text>
           </View>
           <Input
